@@ -6,9 +6,11 @@
     height: 33px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .header__logo {
-        width: calc(104px + (32 + 32 * 0.7) * ((100vw - 320px) / 1280));
-        height: calc(24.4px + 8.6 * (100vw / 1280));
+        height: 24px;
+        width: 103px;
+        margin-top: 18px;
+        margin-left: 27px;
     }
 }

@@ -1,0 +1,28 @@
+.popup__close-icon {
+    background-image: url(../../../images/edit-form__close-icon.png);
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    position: absolute;
+    right: -48px;
+    top: -48px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.popup__close-icon:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 537px) {
+    .popup__close-icon {
+        top: -35px;
+        right: 0;
+        height: 28px;
+        width: 28px;
+    }
+}

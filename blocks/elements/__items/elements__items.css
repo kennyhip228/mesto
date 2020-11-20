@@ -1,0 +1,10 @@
+.elements__items {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 22px;
+}
