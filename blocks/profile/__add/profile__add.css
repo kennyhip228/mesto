@@ -6,12 +6,12 @@
     cursor: pointer;
     background-color: transparent;
     outline: none;
-    transition: opacity 0.2s ease-in-out
+    transition: opacity 0.2s ease-in-out;
 }
 
 .profile__add:hover {
     opacity: 0.6;
-    transition: opacity 0.2s ease-in-out ;
+    transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 1024px) {
