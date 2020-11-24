@@ -1,6 +1,6 @@
 .profile__job {
     color: white;
-    font-size: calc(14px + 4 * (100vw / 1280));
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -14,3 +14,4 @@
         text-align: center;
     }
 }
+

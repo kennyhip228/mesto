@@ -12,6 +12,9 @@ function handleHeaderButtonClick() {
 
     popup.classList.add('popup_opened');
 
+    popupNameInputNode.value = profileNameNode.textContent;
+    popupJobInputNode.value = profileJobNode.textContent;
+
 }    
 
 function handlePopupCloseButtonClick() {
@@ -39,3 +42,4 @@ function formSubmitHandler (evt) {
 
 popupNameInputNode.value = profileNameNode.textContent;
 popupJobInputNode.value = profileJobNode.textContent;
+
