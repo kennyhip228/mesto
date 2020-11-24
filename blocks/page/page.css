@@ -13,26 +13,15 @@
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 880px) {
     .page {
-        max-width: 70.75%;
+        max-width: 880px;
     }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 879px) {
     .page {
-        max-width: 80%;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 96%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .page {
-        max-width: 320px;
-    }
-}

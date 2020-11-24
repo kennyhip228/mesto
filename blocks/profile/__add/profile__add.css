@@ -16,13 +16,13 @@
 
 @media screen and (min-width: 1024px) {
     .profile__add {
-        background-image: url(../../../images/profile__add_button_desktop.png);
+        background-image: url(../../../images/profile__add_button_desktop.svg);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .profile__add {
-        background-image: url(../../../images/profile__add_button_mobile.png);
+        background-image: url(../../../images/profile__add_button_mobile.svg);
         height: 50px;
         width: 282px;
         margin-top: 30px;
