@@ -2,30 +2,37 @@
     align-self: center;
     width: 150px;
     height: 50px;
-    border: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
     cursor: pointer;
     background-color: transparent;
     outline: none;
     transition: opacity 0.2s ease-in-out;
+    background-image: url(../../../images/profile__add_button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile__add:hover {
     opacity: 0.6;
-    transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 1024px) {
     .profile__add {
-        background-image: url(../../../images/profile__add_button_desktop.svg);
+        
     }
 }
 
 @media screen and (max-width: 1023px) {
     .profile__add {
-        background-image: url(../../../images/profile__add_button_mobile.svg);
-        height: 50px;
         width: 282px;
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile__add {
+        background-size: 16px 16px;
     }
 }
 

@@ -1,11 +1,12 @@
-const popup = document.querySelector('.popup');
-const profileButtonNode = document.querySelector('.profile__edit');
-const popupCloseButtonNode = popup.querySelector('.popup__close-icon');
-const popupSaveButtonNode = popup.querySelector('.popup__save');
-
-profileButtonNode.addEventListener('click', handleHeaderButtonClick);
-popupCloseButtonNode.addEventListener('click', handlePopupCloseButtonClick);
-popupSaveButtonNode.addEventListener('click', handlePopupCloseButtonClick);
+let popup = document.querySelector('.popup');
+let profileButtonNode = document.querySelector('.profile__edit');
+let popupCloseButtonNode = popup.querySelector('.popup__close-icon');
+let popupSaveButtonNode = popup.querySelector('.popup__save');
+let popupFormNode = document.querySelector('.popup__form');
+let profileNameNode = document.querySelector('.profile__name');
+let popupNameInputNode = document.querySelector('.popup__name');
+let profileJobNode = document.querySelector('.profile__job');
+let popupJobInputNode = document.querySelector('.popup__job');
 
 
 function handleHeaderButtonClick() {
@@ -22,14 +23,6 @@ function handlePopupCloseButtonClick() {
     popup.classList.remove('popup_opened');
 }
 
-const popupFormNode = document.querySelector('.popup__form');
-
-popupFormNode.addEventListener('submit', formSubmitHandler);
-
-const profileNameNode = document.querySelector('.profile__name');
-const popupNameInputNode = document.querySelector('.popup__name');
-const profileJobNode = document.querySelector('.profile__job');
-const popupJobInputNode = document.querySelector('.popup__job')
 
 function formSubmitHandler (evt) {
 
@@ -40,6 +33,8 @@ function formSubmitHandler (evt) {
 
 }
 
-popupNameInputNode.value = profileNameNode.textContent;
-popupJobInputNode.value = profileJobNode.textContent;
+profileButtonNode.addEventListener('click', handleHeaderButtonClick);
+popupCloseButtonNode.addEventListener('click', handlePopupCloseButtonClick);
+popupSaveButtonNode.addEventListener('click', handlePopupCloseButtonClick);
+popupFormNode.addEventListener('submit', formSubmitHandler);
 

@@ -8,11 +8,14 @@
     background-color: black;
     outline: none;
     transition: opacity 0.2s ease-in-out;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
 }
 
 .popup__save:hover {
     opacity: 0.8;
-    transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 537px) {
