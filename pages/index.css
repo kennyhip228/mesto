@@ -45,3 +45,6 @@
 @import url(../blocks/popup-full/__close/popup-full__close.css);
 @import url(../blocks/popup-full/_opened/popup-full_opened.css);
 @import url(../blocks/elements/__like/_active/elements__like_active.css);
+@import url(../blocks/popup-add/__container/popup-add__container.css);
+@import url(../blocks/popup-add/__title/popup-add__title.css);
+@import url(../blocks/popup-add/__input-data/popup-add__input-data.css);
