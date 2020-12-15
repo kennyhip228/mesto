@@ -1,0 +1,18 @@
+.popup-full__close {
+    background-image: url(../../../images/edit-form__close-icon.svg);
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.popup-full__close:hover {
+    opacity: 0.6;
+}
