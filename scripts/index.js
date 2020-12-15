@@ -12,8 +12,8 @@ let PopupAddCloseButton = document.querySelector('.popup-add__close-icon');
 let popupAddFormNode = document.querySelector('.popup-add__form');
 let elementsGridPlace = document.querySelector('.elements__grid');
 let templateElement = document.querySelector('#elements-template');
-let popupAddInputName = document.querySelector('.popup__place');
-let popupAddInputLink = document.querySelector('.popup__link');
+let popupAddInputName = document.querySelector('.popup-add__place');
+let popupAddInputLink = document.querySelector('.popup-add__link');
 let popupFullCloseIcon = document.querySelector('.popup-full__close');
 let popupFull = document.querySelector('.popup-full');
 
